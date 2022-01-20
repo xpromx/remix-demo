@@ -1,0 +1,5 @@
+fragment PokemonCard on PokemonItem {
+  id
+  name
+  image
+}

@@ -1,0 +1,8 @@
+# Write your query or mutation here
+query pokemons {
+  pokemons(limit: 50) {
+    results {
+      ...PokemonCard
+    }
+  }
+}

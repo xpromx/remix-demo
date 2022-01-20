@@ -1,0 +1,27 @@
+ul {
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+li {
+  width: 150px;
+  border: 1px #ccc solid;
+  display: flex;
+  justify-content: center;
+  margin: 4px;
+}
+
+h2 {
+  text-align: center;
+  font-size: 16px;
+}
+
+li img {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  margin-bottom: 3px;
+}
